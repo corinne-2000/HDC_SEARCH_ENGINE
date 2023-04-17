@@ -1,0 +1,44 @@
+# Ignore HLS files and generated project (automatically regenerated)
+HLS/SearchEngine/*.log
+HLS/SearchEngine/hls_project
+HLS/SearchEngine/output.h
+
+# Ignore block design generated IP (automatically regenerated)
+IP/BlockDesign/ip
+IP/BlockDesign/sim
+IP/BlockDesign/synth
+IP/BlockDesign/BlockDesign.bxml
+IP/BlockDesign/BlockDesign_ooc.xdc
+IP/BlockDesign/hw_handoff
+IP/BlockDesign/ipshared
+
+# Ignore automatically created projects (automatically regenerated)
+SDK/BlockDesign*.*
+SDK/psu*.*
+SDK/webtalk
+SDK/TestBench/*
+!SDK/TestBench/src
+SDK/TestBench/src/README.*
+SDK/TestBench/src/*.ld
+SDK/TestBench_system
+SDK/BlockDesign_wrapper
+SDK/HardwareHdc/_ide
+SDK/RemoteSystemsTempFiles
+SDK/drivers
+SDK/*.log
+SDK/.*
+
+# Ignore Vivado project file (automatically regenerated)
+Project/SearchEngine.*
+Project/vivado*
+Project/.Xil
+
+# Ignore output.h, which is the result of runnning the HLS testbench
+Tests/output.h
+
+# Ignore other temporary files and folders
+Packages/
+*.log
+*.jou
+*.str
+.vscode
