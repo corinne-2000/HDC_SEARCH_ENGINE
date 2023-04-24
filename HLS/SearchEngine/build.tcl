@@ -20,7 +20,7 @@ set_part {xczu2cg-sfvc784-1-e} -tool vivado
 create_clock -period 3.333 -name default
 
 # Config export options
-config_export -format ip_catalog -rtl vhdl -display_name "SEARCH_ENGINE" -ipname "SearchEngine" -version "1.2" -vendor "CorinneBP" -description "HDC search engine"
+config_export -format ip_catalog -rtl vhdl -display_name "SEARCH_ENGINE" -ipname "SearchEngine" -version "1.3" -vendor "CorinneBP" -description "HDC search engine"
 
 # Build the design
 csim_design
